@@ -1,15 +1,18 @@
 Package: dbMC
-Title: Confidence Intervals for Low-Rank Matrix Completion with De-Biased Estimator
+Title: Confidence Interval for Matrix Completion via De-Biased Estimator
 Version: 1.0.0
-Authors@R: person("The Tien", "Mai", email = "t.t.mai@medisin.uio.no",
-  role = c("aut", "cre"))
-Description: Implements the de-biased estimator for low-rank matrix completion
-        and provides confidence intervals for entries of interest.
+Authors@R: person("The Tien", "Mai", 
+        email = "t.t.mai@medisin.uio.no",   
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-3514-9636"))
+Description: Implements the de-biased estimator for low-rank matrix completion 
+        and provides confidence intervals for entries of interest. 
+        See: by Chen et al. (2019) <doi:10.1073/pnas.1910053116>, 
+        Mai (2021) <arXiv:2103.11749>.
 Imports: 
     softImpute
 License: GPL-2
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 

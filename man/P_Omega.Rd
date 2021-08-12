@@ -2,14 +2,17 @@
 % Please edit documentation in R/P_Omega.R
 \name{P_Omega}
 \alias{P_Omega}
-\title{projection onto to observation set}
+\title{projection onto observation set}
 \usage{
 P_Omega(a, entri)
 }
 \arguments{
-\item{a}{a matrix}
+\item{a}{a matrix.}
 
-\item{entri}{missint entries}
+\item{entri}{missing entries location.}
+}
+\value{
+Return a matrix whose its missing entries are replaced by 0 s.
 }
 \description{
 This function returns a matrix where the missing entries are replaced by 0 s.
